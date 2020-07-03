@@ -1,0 +1,50 @@
+
+// Fonts
+
+@font-face {
+  font-family: "Zombie Holocaust";
+  src: url('/fonts/Zombie_Holocaust.ttf') format('truetype');
+}
+
+$font-base: serif;
+$font-title: sans-serif;
+$font-code: monospace;
+$font-header: "Zombie Holocaust";
+
+$font-weight-base: normal;
+$font-weight-primary: 500;
+$font-weight-title: normal;
+
+$font-size-header: 2em;
+
+// Colors
+
+/// Background colors
+$background-color-body: grey;
+$background-color-section: darkgrey;
+$background-color-div: lightgrey;
+
+/// Foreground colors
+$color-base: black;
+$color-primary: darkred;
+$color-title: #3c0000;
+$color-active: crimson;
+
+$color-header-title: lightgrey;
+$color-header-title-outline: black;
+
+// Borders
+$section-borders: 3px double black;
+$section-borders-radius: 0;
+
+$borders-header: 1px solid black;
+$borders-radius-header: 3px;
+
+$borders-footer: 1px solid black;
+$borders-radius-footer: 3px;
+
+$border-sep-div: 1px solid black;
+
+// Text decorations
+$text-decoration-base: none;
+$text-decoration-primary: none;

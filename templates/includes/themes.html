@@ -1,0 +1,11 @@
+<div class="column-div themes">
+    <h4>Theme</h4>
+    <form>
+    <label for="themes-selector"></label>
+        <select name="themes" id="themes-selector">
+            {% for theme in config.extra.themes %}
+                <option value="{{ theme }}">{{ theme }}</option>
+            {% endfor %}
+        </select>
+    </form>
+</div>

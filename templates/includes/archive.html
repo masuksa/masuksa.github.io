@@ -1,0 +1,17 @@
+<div class="column-div archive">
+    <h4>Archive</h4>
+    <ul class="list-year">
+        {% set article_section = get_section(path="blog/_index.md") %}
+        {% for year, posts in article_section.pages | group_by(attribute="year") %}
+            <li>
+                {{ year }} ({{ posts | length }})
+
+                <ul>
+                    {% for post in posts %}
+                        <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

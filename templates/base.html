@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MyBlog</title>
+    <link id="theme-css" rel="stylesheet" href="/styles/themes/wood-fog.css">
+    <script src="/js/theme-switcher.js" type="text/javascript"></script>
+</head>
+
+{#<body onload="init();">#}
+<body>
+    {% include "includes/header.html" %}
+
+    <div class="main">
+        <section class="column-left">
+            {% include "includes/feeds.html" %}
+            {% include "includes/links.html" %}
+            {% include "includes/contact.html" %}
+            {% include "includes/archive.html" %}
+        </section>
+
+        <section class="section column-center">
+            <div class="container-content">
+                {% block content %} {% endblock %}
+            </div>
+        </section>
+
+        <section class="column-right">
+            {% include "includes/themes.html" %}
+            {% include "includes/about.html" %}
+            {% include "includes/tags.html" %}
+        </section>
+    </div>
+
+    {% include "includes/footer.html" %}
+</body>
+
+</html>

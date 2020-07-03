@@ -1,0 +1,21 @@
+<article>
+    <header>
+        <a href="{{ page.permalink }}"><h1>
+            {{ page.title }}
+        </h1></a>
+        <time datetime="{{ page.date }}">{{ page.date }}</time>
+    </header>
+
+    <p>
+        {{ page.content | safe }}
+    </p>
+
+    <div class="article-tags">
+        Tags:
+        {% for tag_raw in page.taxonomies.tags %}
+            {% set tag = get_taxonomy(kind='tags', name=tag_raw) %}
+            {% set url = get_taxonomy_url(kind='tags', name=tag_raw) %}
+            <a href="{{ url }}">{{ tag_raw }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+    </div>
+</article>

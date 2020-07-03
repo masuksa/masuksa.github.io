@@ -1,0 +1,13 @@
+<div class="column-div tags">
+    <h4>Tags</h4>
+    {% set category = get_taxonomy(kind="tags") %}
+
+    <ul>
+        {% for tag in category.items %}
+            <li>
+                {% set url = get_taxonomy_url(kind='tags', name=tag.name) %}
+                <a href="{{ url }}">{{ tag.name }}</a> ({{ tag.pages | length }})
+            </li>
+        {% endfor %}
+    </ul>
+</div>

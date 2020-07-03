@@ -1,0 +1,188 @@
+html {
+  width: 100%
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 .5em;
+  text-align: justify;
+}
+
+li {
+  text-align: justify;
+}
+
+
+.header-website {
+  height: 18vh;
+  background: url("/pictures/header.jpg") no-repeat center;
+  background-size: cover;
+  margin: .5em .5em 1em;
+  padding: 2em;
+  flex: 1 1 20vh;
+
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+
+  h1 {
+    display: block;
+    margin: auto;
+    width: fit-content;
+  }
+}
+
+footer {
+  width: 60%;
+  margin: 1em auto;
+
+  padding: 1em;
+}
+
+.main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  //align-items: flex-start;
+  align-items: stretch;
+
+  img {
+    width: 100%;
+  }
+}
+
+.column-left, .column-right {
+  flex: 1 1 15%;
+
+  p, li {
+    text-align: left;
+  }
+}
+
+.column-right {
+  margin-left: 1vw;
+
+}
+
+.column-left {
+  margin-right: 1vw;
+}
+
+.column-center {
+  flex: 1 1 50%;
+}
+
+.column-div {
+  padding: 1em;
+
+  h4, ul, p {
+    margin: 0;
+  }
+
+  h4 {
+    margin-bottom: .5em;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+article {
+
+  padding: 1em;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  header {
+    background: none;
+    background-color: inherit;
+    border: none;
+    margin: 0 0 1em;
+    padding: .5em 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+
+    h1 {
+      margin: 0;
+
+      &:hover {
+      }
+    }
+  }
+
+  img {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+  }
+
+  .article-tags {
+    margin-top: 1em;
+    width: 100%;
+    font-style: italic;
+  }
+
+  iframe {
+    margin: 1em auto;
+    display: block;
+  }
+}
+
+.archive {
+  .list-year {
+    list-style-type: none;
+    padding: .2em;
+
+    ul {
+      list-style-position: inside;
+      padding: .5em;
+    }
+  }
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  .content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    h1 {
+      display: block;
+      margin: auto;
+    }
+
+  }
+}
