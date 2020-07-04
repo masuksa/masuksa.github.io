@@ -25,7 +25,7 @@ Below is a small selection :
  * On the more electro/pop side of things, you can find Faulty and ThatMusicBrony's *Hidden*.
  * *Baychimo* by Niłch'i Poni is a nice atmospheric peace which will tranport you to the Alaskan waters.
 
-<iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=3394649274/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://poniesatdawn.bandcamp.com/album/ignite">Ignite by Ponies at Dawn</a></iframe>
+<iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=3394649274/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/" seamless><a href="http://poniesatdawn.bandcamp.com/album/ignite">Ignite by Ponies at Dawn</a></iframe>
 
 You can find Ignite here : 
 [Bandcamp](https://poniesatdawn.bandcamp.com/album/ignite) - [Youtube](https://www.youtube.com/playlist?list=PLqNYwoMQSqSrCBda4UlRcbg0mWU_sH9-M)
