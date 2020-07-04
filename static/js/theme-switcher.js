@@ -6,8 +6,6 @@ const THEME_COOKIE_NAME = "theme";
 
 const THEME_CSS_ID = "theme-css"; // id of the link HTML element
 
-const THEME_PATH = "/styles/themes/";
-
 let themeSelector;
 let linkTheme;
 
@@ -22,12 +20,11 @@ let linkTheme;
  * @param url
  * @returns {boolean}
  */
-function checkFileExist(url)
-{
-    let http = new XMLHttpRequest();
-    http.open('HEAD', url, false);
-    http.send();
-    return http.status!=404;
+function checkFileExist(url) {
+  let http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  http.send();
+  return http.status != 404;
 }
 
 /**
@@ -37,12 +34,18 @@ function checkFileExist(url)
  */
 function setTheme(theme) {
 
-  if (!checkFileExist(THEME_PATH + theme + '.css')) {
-    console.log("Error: theme '" + theme + "' not found");
+
+  let themePathArray = linkTheme.href.split("/");
+  themePathArray[themePathArray.length - 1] = theme + '.css';
+  let themePath = themePathArray.join("/");
+
+  if (!checkFileExist(themePath)) {
+    console.log("Error: theme '" + themePath + "' not found");
     return;
   }
 
-  linkTheme.href = THEME_PATH + theme + '.css';
+  linkTheme.href = themePath;
+
   themeSelector.value = theme;
 
   let storage = window.localStorage;

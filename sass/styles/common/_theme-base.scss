@@ -1,0 +1,88 @@
+
+body {
+  background-color: $background-color-body;
+  color: $color-base;
+  text-decoration: $text-decoration-base;
+  font-weight: $font-weight-base;
+  font-family: $font-base;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: $text-decoration-primary;
+  font-weight: $font-weight-primary;
+
+  &:hover {
+    color: $color-active;
+  }
+}
+
+h1, h2, h3, h4, h1 > a, h2 > a, h3 > a, h4 > a {
+  font-weight: $font-weight-title;
+  font-family: $font-title;
+  color: $color-title;
+}
+
+.header-website {
+  background: $background-color-section url("/pictures/header.jpg") no-repeat center;
+  border: $borders-header;
+  border-radius: $borders-radius-header;
+
+  h1 a {
+    font-family: $font-header;
+    font-size: $font-size-header;
+    color: $color-header-title;
+    font-weight: $font-weight-header-title;
+    text-shadow: -1px 1px 0 $color-header-title-outline,
+    1px 1px 0 $color-header-title-outline,
+    1px -1px 0 $color-header-title-outline,
+    -1px -1px 0 $color-header-title-outline;
+  }
+}
+
+footer {
+  border: $borders-footer;
+  border-radius: $borders-radius-footer;
+  background-color: $background-color-section;
+}
+
+section {
+  border: $section-borders;
+  border-radius: $section-borders-radius;
+
+  background-color: $background-color-section;
+}
+
+.column-div {
+  border-bottom: $border-sep-div;
+  background-color: $background-color-div;
+}
+
+article {
+
+  border-bottom: $border-sep-div;
+  background-color: $background-color-div;
+
+  h1 {
+    color: $color-primary;
+
+    &:hover {
+      color: $color-active;
+    }
+  }
+}
+
+
+.container-content {
+  background-color: $background-color-div;
+
+  .content-header {
+    background-color: $background-color-section;
+
+    border-bottom: $border-sep-div;
+
+    h1 {
+      color: $color-title;
+    }
+  }
+}

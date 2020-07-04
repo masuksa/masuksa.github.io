@@ -21,30 +21,30 @@ $font-size-header: 2em;
 // Colors
 
 /// Background colors
-$background-color-body: grey;
-$background-color-section: darkgrey;
-$background-color-div: lightgrey;
+$background-color-body: black;
+$background-color-section: #1a1a1a;
+$background-color-div: #0d0d0d;
 
 /// Foreground colors
-$color-base: black;
-$color-primary: darkred;
-$color-title: #3c0000;
-$color-active: crimson;
+$color-base: #f2f2f2;
+$color-primary: crimson;
+$color-title: red;
+$color-active: darkred;
 
 $color-header-title: lightgrey;
 $color-header-title-outline: black;
 
 // Borders
-$section-borders: 3px double black;
+$section-borders: 3px double darkgrey;
 $section-borders-radius: 0;
 
-$borders-header: 1px solid black;
+$borders-header: 1px solid darkgrey;
 $borders-radius-header: 3px;
 
-$borders-footer: 1px solid black;
+$borders-footer: 1px solid darkgrey;
 $borders-radius-footer: 3px;
 
-$border-sep-div: 1px solid black;
+$border-sep-div: 1px solid darkgrey;
 
 // Text decorations
 $text-decoration-base: none;
