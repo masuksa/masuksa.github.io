@@ -13,6 +13,9 @@ It features some symphonic elements, which will probably remind you of some [bla
 This makes the record particularly interesting to me, by giving it a sense of huge scale not often heard in death metal.
 
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=OLAK5uy_lo7_rANmC-8kuNbchECEL3c3fnGX6QfFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 *Unfortunately, I haven't been able to find any official buying link for this album.
 However, the group has a [Bandcamp page](https://skyfiremusic.bandcamp.com/) with their latest release, *Liberation in Death*.*
 
