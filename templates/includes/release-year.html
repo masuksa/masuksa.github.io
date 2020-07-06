@@ -1,0 +1,13 @@
+<div class="column-div release-year">
+    <h4>Release year</h4>
+    {% set category = get_taxonomy(kind="release-year") %}
+
+    <ul>
+        {% for year in category.items | reverse %}
+            <li>
+                {% set url = get_taxonomy_url(kind='release-year', name=year.name) %}
+                <a href="{{ url }}">{{ year.name }}</a> ({{ year.pages | length }})
+            </li>
+        {% endfor %}
+    </ul>
+</div>
