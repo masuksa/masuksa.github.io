@@ -17,10 +17,10 @@ build_search_index = true
 # When set to "true", a feed is automatically generated.
 generate_feed = true
 
-taxonomies = [ {name = "tags", rss = true, lang = "en", paginate_by = 2},
- {name = "release-year", rss = true, lang = "en"},
- {name = "authors", rss = true, lang = "en"},
- {name = "categories", rss = true, lang = "en"}
+taxonomies = [ {name = "tags", rss = true, lang = "en", paginate_by = 7},
+ {name = "release-year", rss = true, lang = "en", paginate_by = 7},
+ {name = "authors", rss = true, lang = "en", paginate_by = 7},
+ {name = "categories", rss = true, lang = "en", paginate_by = 7}
 ]
 
 [extra]

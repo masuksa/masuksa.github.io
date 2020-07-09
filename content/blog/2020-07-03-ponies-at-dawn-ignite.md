@@ -3,9 +3,13 @@ title = "Ponies at Dawn - Ignite"
 
 [taxonomies]
 tags = ["compilation"]
+release-year = ["2020"]
+categories = ["Album"]
+authors = ["masuksa"]
 +++
 
 ![Ignite](https://coverartarchive.org/release/92146ee3-c4e6-4057-9fe0-b23fb7b1b377/26446364095-250.jpg)
+<div class="image-description">Artwork by <a href="https://www.deviantart.com/anticularpony">AnticularPony</a></div>
 
 
 *Ponies at Dawn* is a project publishing compilations of brony musicians every now and then.

@@ -3,6 +3,9 @@ title = "Skyfire - Timeless Departure"
 
 [taxonomies]
 tags = ["death metal", "melodic death metal", "metal"]
+release-year = ["2001"]
+categories = ["Album"]
+authors = ["masuksa"]
 +++
 
 ![Timeless Departure](https://coverartarchive.org/release-group/1edd2e57-e425-3ec4-94b3-311de0bf7c78/front.jpg)

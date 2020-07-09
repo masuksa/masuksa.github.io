@@ -3,6 +3,9 @@ title = "Powderpaint - Powderpaint"
 
 [taxonomies]
 tags = ["synthpop", "pop", "synthwave"]
+release-year = ["2020"]
+categories = ["Album"]
+authors = ["masuksa"]
 +++
 
 ![Powderpaint](https://coverartarchive.org/release-group/74854a91-209f-45ef-a3bc-d56d986cf16d/front-250.jpg)
