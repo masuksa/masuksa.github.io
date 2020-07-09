@@ -1,8 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% set blog_section = get_section(path='blog/_index.md') %}
-{% for page in blog_section.pages %}
-    {% include "includes/article.html" %}
-{% endfor %}
+{#    {% set blog_section = get_section(path='blog/_index.md') %}#}
+{#    {% for page in blog_section.pages %}#}
+{#        {% include "includes/article.html" %}#}
+{#    {% endfor %}#}
+
+    {# {% include "includes/pagination-navigation.html" %}#}
 {% endblock content %}

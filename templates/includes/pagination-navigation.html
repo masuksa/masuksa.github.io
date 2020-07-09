@@ -1,0 +1,23 @@
+<div class="pagination-navigation">
+
+{% set last_page_index = paginator.total_pages/paginator.paginate_by | int %} {# it's last_index -1 actually #}
+    <ul>
+        {% if paginator.current_index > 2 %}<a href="{{ paginator.first }}">
+            <li>1</li>
+        </a>{% endif %}
+        {% if paginator.current_index > 3 %}
+            <li>...</li>{% endif %}
+        {% if paginator.current_index > 1 %}<a href="{{ paginator.previous }}">
+            <li>{{ paginator.current_index - 1 }}</li>
+        </a>{% endif %}
+        <li>{{ paginator.current_index }}</li>
+        {% if paginator.current_index < last_page_index %}<a href="{{ paginator.next }}">
+            <li>{{ paginator.current_index + 1 }}</li>
+        </a>{% endif %}
+        {% if paginator.current_index < last_page_index - 3 %}
+            <li>...</li>{% endif %}
+        {% if paginator.current_index < last_page_index - 1 %}<a href="{{ paginator.last }}">
+            <li>{{ paginator.total_pages }}</li>
+        </a>{% endif %}
+    </ul>
+</div>

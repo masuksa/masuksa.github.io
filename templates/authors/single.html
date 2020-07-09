@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="content-header">
+        <h1>Articles by {{ term.name }}</h1>
+    </div>
+
+
+    {% for page in term.pages %}
+        {% include "includes/article.html" %}
+    {% endfor %}
+{% endblock content %}

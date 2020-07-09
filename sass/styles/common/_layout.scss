@@ -124,6 +124,11 @@ article {
     align-items: center;
     justify-content: flex-start;
 
+    .article-header-category {
+      font-size: .9em;
+      margin: 0 0 .2em;
+    }
+
     h1 {
       margin: 0;
 
@@ -187,6 +192,22 @@ article {
       margin: auto;
     }
 
+  }
+}
+
+.pagination-navigation {
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+  }
+
+  li {
+    display: inline-block;
+    // border: 1px solid black;
+    margin: 0;
+    padding: .2em .5em;
   }
 }
 
