@@ -1,6 +1,6 @@
 +++
 title = "Yarostan - Les Ruines de Notre Temps"
-date = 2020-07-05
+date = 2020-07-09
 
 [taxonomies]
 tags = ["screamo", "post-hardcore"]
