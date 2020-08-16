@@ -3,8 +3,6 @@ title = "Mort Garson - Mother Earth's Plantasia"
 
 date = 2020-08-11
 
-draft = true 
-
 [taxonomies]
 tags = ["electro", "synth", "ambient", "experimental"]
 categories = ["Album"]
