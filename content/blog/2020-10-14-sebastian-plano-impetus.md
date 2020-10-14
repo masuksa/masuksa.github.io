@@ -1,7 +1,7 @@
 +++
 title = "Sebastian Plano - Impetus"
 
-date = 2013-10-14
+date = 2020-10-14
 
 [taxonomies]
 tags = ["neo-classical"]
