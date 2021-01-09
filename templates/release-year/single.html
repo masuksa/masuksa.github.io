@@ -6,8 +6,9 @@
     </div>
 
 
-    {% for page in term.pages %}
+    {% for page in paginator.pages %}
         {% include "includes/article.html" %}
     {% endfor %}
-    {#{% include "includes/pagination-navigation.html" %}#}
+
+    {% include "includes/pagination-navigation.html" %}
 {% endblock content %}
