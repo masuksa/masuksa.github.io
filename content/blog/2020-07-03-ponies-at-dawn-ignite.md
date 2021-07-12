@@ -2,7 +2,7 @@
 title = "Ponies at Dawn - Ignite"
 
 [taxonomies]
-tags = ["compilation"]
+tags = ["compilation", "my little pony"]
 release-year = ["2020"]
 categories = ["Album"]
 authors = ["masuksa"]
