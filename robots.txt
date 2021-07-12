@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://masuksa.github.io/sitemap.xml

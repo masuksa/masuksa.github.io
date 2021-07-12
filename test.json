@@ -1,0 +1,484 @@
+{
+  "kind": {
+    "name": "tags",
+    "paginate_by": null,
+    "paginate_path": null,
+    "feed": false,
+    "lang": "en"
+  },
+  "items": [
+    {
+      "name": "death metal",
+      "slug": "death-metal",
+      "permalink": "http://127.0.0.1:1111/tags/death-metal/",
+      "pages": [
+        {
+          "relative_path": "blog/third.md",
+          "content": "\"Afterglow\"",
+          "permalink": "http://127.0.0.1:1111/blog/third/",
+          "slug": "third",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "The Call to Orion",
+          "description": null,
+          "updated": null,
+          "date": "2020-07-02",
+          "year": 2020,
+          "month": 7,
+          "day": 2,
+          "taxonomies": {
+            "tags": [
+              "death metal",
+              "metal",
+              "melodic death metal",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/third/",
+          "components": [
+            "blog",
+            "third"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 80,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "name": "melodic death metal",
+      "slug": "melodic-death-metal",
+      "permalink": "http://127.0.0.1:1111/tags/melodic-death-metal/",
+      "pages": [
+        {
+          "relative_path": "blog/third.md",
+          "content": "\"Afterglow\"\n",
+          "permalink": "http://127.0.0.1:1111/blog/third/",
+          "slug": "third",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "The Call to Orion",
+          "description": null,
+          "updated": null,
+          "date": "2020-07-02",
+          "year": 2020,
+          "month": 7,
+          "day": 2,
+          "taxonomies": {
+            "tags": [
+              "death metal",
+              "metal",
+              "melodic death metal",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/third/",
+          "components": [
+            "blog",
+            "third"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 80,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "name": "metal",
+      "slug": "metal",
+      "permalink": "http://127.0.0.1:1111/tags/metal/",
+      "pages": [
+        {
+          "relative_path": "blog/third.md",
+          "content": "\"Afterglow\"",
+          "permalink": "http://127.0.0.1:1111/blog/third/",
+          "slug": "third",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "The Call to Orion",
+          "description": null,
+          "updated": null,
+          "date": "2020-07-02",
+          "year": 2020,
+          "month": 7,
+          "day": 2,
+          "taxonomies": {
+            "tags": [
+              "death metal",
+              "metal",
+              "melodic death metal",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/third/",
+          "components": [
+            "blog",
+            "third"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 80,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "name": "prout",
+      "slug": "prout",
+      "permalink": "http://127.0.0.1:1111/tags/prout/",
+      "pages": [
+        {
+          "relative_path": "blog/second.md",
+          "content": "This is my second blog post.",
+          "permalink": "http://127.0.0.1:1111/blog/second/",
+          "slug": "second",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "Test post",
+          "description": null,
+          "updated": null,
+          "date": "2019-07-10",
+          "year": 2019,
+          "month": 7,
+          "day": 10,
+          "taxonomies": {
+            "tags": [
+              "prout",
+              "ssg",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/second/",
+          "components": [
+            "blog",
+            "second"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 148,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "name": "rust",
+      "slug": "rust",
+      "permalink": "http://127.0.0.1:1111/tags/rust/",
+      "pages": [
+        {
+          "relative_path": "blog/first.md",
+          "content": "This is my",
+          "permalink": "http://127.0.0.1:1111/blog/first/",
+          "slug": "first",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "Extra Syntax",
+          "description": null,
+          "updated": null,
+          "date": "2018-08-14",
+          "year": 2018,
+          "month": 8,
+          "day": 14,
+          "taxonomies": {
+            "tags": [
+              "rust",
+              "ssg",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/first/",
+          "components": [
+            "blog",
+            "first"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 21,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "name": "ssg",
+      "slug": "ssg",
+      "permalink": "http://127.0.0.1:1111/tags/ssg/",
+      "pages": [
+        {
+          "relative_path": "blog/second.md",
+          "content": "This is my second blog post.",
+          "permalink": "http://127.0.0.1:1111/blog/second/",
+          "slug": "second",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "Test post",
+          "description": null,
+          "updated": null,
+          "date": "2019-07-10",
+          "year": 2019,
+          "month": 7,
+          "day": 10,
+          "taxonomies": {
+            "tags": [
+              "prout",
+              "ssg",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/second/",
+          "components": [
+            "blog",
+            "second"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 148,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        },
+        {
+          "relative_path": "blog/first.md",
+          "content": "This is my",
+          "permalink": "http://127.0.0.1:1111/blog/first/",
+          "slug": "first",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "Extra Syntax",
+          "description": null,
+          "updated": null,
+          "date": "2018-08-14",
+          "year": 2018,
+          "month": 8,
+          "day": 14,
+          "taxonomies": {
+            "tags": [
+              "rust",
+              "ssg",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/first/",
+          "components": [
+            "blog",
+            "first"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 21,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "slug": "test",
+      "permalink": "http://127.0.0.1:1111/tags/test/",
+      "pages": [
+        {
+          "relative_path": "blog/third.md",
+          "content": "\"Afterglow\"",
+          "permalink": "http://127.0.0.1:1111/blog/third/",
+          "slug": "third",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "The Call to Orion",
+          "description": null,
+          "updated": null,
+          "date": "2020-07-02",
+          "year": 2020,
+          "month": 7,
+          "day": 2,
+          "taxonomies": {
+            "tags": [
+              "death metal",
+              "metal",
+              "melodic death metal",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/third/",
+          "components": [
+            "blog",
+            "third"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 80,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        },
+        {
+          "relative_path": "blog/second.md",
+          "content": "This",
+          "permalink": "http://127.0.0.1:1111/blog/second/",
+          "slug": "second",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "Test post",
+          "description": null,
+          "updated": null,
+          "date": "2019-07-10",
+          "year": 2019,
+          "month": 7,
+          "day": 10,
+          "taxonomies": {
+            "tags": [
+              "prout",
+              "ssg",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/second/",
+          "components": [
+            "blog",
+            "second"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 148,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        },
+        {
+          "relative_path": "blog/first.md",
+          "content": "Truc",
+          "permalink": "http: //127.0.0.1:1111/blog/first/",
+          "slug": "first",
+          "ancestors": [
+            "_index.md",
+            "blog/_index.md"
+          ],
+          "title": "Extra Syntax",
+          "description": null,
+          "updated": null,
+          "date": "2018-08-14",
+          "year": 2018,
+          "month": 8,
+          "day": 14,
+          "taxonomies": {
+            "tags": [
+              "rust",
+              "ssg",
+              "test"
+            ]
+          },
+          "extra": {},
+          "path": "blog/first/",
+          "components": [
+            "blog",
+            "first"
+          ],
+          "summary": null,
+          "toc": [],
+          "word_count": 21,
+          "reading_time": 1,
+          "assets": [],
+          "draft": false,
+          "lang": "en",
+          "lighter": null,
+          "heavier": null,
+          "earlier": null,
+          "later": null,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}
