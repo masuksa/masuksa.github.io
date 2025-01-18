@@ -11,7 +11,7 @@ compile_sass = true
 build_search_index = true
 
 # When set to "true", a feed is automatically generated.
-generate_feed = true
+generate_feeds = true
 
 taxonomies = [ {name = "tags", rss = true, lang = "en", paginate_by = 7},
  {name = "release-year", rss = true, lang = "en", paginate_by = 7},
