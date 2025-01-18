@@ -9,11 +9,11 @@ jobs:
     name: shalzz/zola-deploy-action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: shalzz/zola-deploy-action
-      uses: shalzz/zola-deploy-action@master
+    - name: Checkout main
+      uses: actions/checkout@v4
+    - name: Build and deploy
+      uses: shalzz/zola-deploy-action@@v0.19.2
       env:
         PAGES_BRANCH: master
         BUILD_DIR: .
-        BUILD_FLAGS: --drafts
-        TOKEN: ${{ secrets.TOKEN_BUILD }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
