@@ -4,7 +4,7 @@ title = "Lena Raine - Chicory: A Colorful Tale (Original Soundtrack)"
 date = "2025-12-22"
 
 [taxonomies]
-tags = ["soundtrack", "black metal", "drone", "atmospheric", "ambient", "noise"]
+tags = ["soundtrack"]
 categories = ["Album"]
 release-year = ["2021"]
 authors = ["masuksa"]
@@ -29,3 +29,5 @@ I'm overall very pleased with this album.
 I like Lena Raine touch, while the diversity and number of tracks means I've a lot to listen to.
 
 <iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=709270856/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://radicaldreamland.bandcamp.com/album/chicory-a-colorful-tale-original-soundtrack">Chicory: A Colorful Tale (Original Soundtrack) de Lena Raine</a></iframe>
+
+[Musicbrainz link](https://musicbrainz.org/release-group/8a99956b-6e20-493b-b761-fa1c7283e64a)
