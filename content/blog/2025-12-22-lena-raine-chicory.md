@@ -28,3 +28,4 @@ And for the more intense moments of the game (I suppose), there are some darker 
 I'm overall very pleased with this album.
 I like Lena Raine touch, while the diversity and number of tracks means I've a lot to listen to.
 
+<iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=709270856/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://radicaldreamland.bandcamp.com/album/chicory-a-colorful-tale-original-soundtrack">Chicory: A Colorful Tale (Original Soundtrack) de Lena Raine</a></iframe>
